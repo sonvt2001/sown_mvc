@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink : #e5345b;
+    --blue: #0c1728;
+    --gray: #303030;
+}
+
+.container-fluid{
+    background: var(--gray) !important;
+    padding: 70px 0;
+}
+
+.text-primary{
+    color: var(--pink) !important;
+}
+
+.groupBtn > a{
+    background-color: var(--blue);
+    color: #fff;
+    padding: 10px 26px;
+    margin : 0 20px;
+    width: 200px;
+}
+
+.groupBtn > a:hover{
+    color: #fff !important;
+}
+
+.activeBtn{
+    background-color: var(--pink) !important;
+    color: #fff !important;
+}
+
+.loginWithSocial{
+    padding: 50px 0;
+}
+
+.socialIcon {
+    margin: 30px 0;
+}
+
+.socialIcon > a {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.socialIcon > a:hover {
+    color: var(--pink) !important;
+}
+
+.input-group {
+    width: 400px;
+}
+
+.input-group > input {
+    background-color: var(--gray) !important;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    color: #fff !important;
+    margin-bottom: 35px;
+}
+
+.input-group > input:focus{
+    box-shadow: none !important;
+    border: 1px solid white;
+}
+
+.input-group > label{
+    color: #fff !important;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+    top: -35%;
+    transform: translateY(-35%);
+    left: -10px;
+    transition: ease 0.5s;
+    font-size: 14px;
+}
+
+.feature .forgotPass > a:hover {
+    color: var(--pink) !important;
+}
+
+.btnLogin > input {
+    width: 400px !important;
+}
+
+.btnLogin > input:hover {
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important ;
+}
+
+@media screen and (max-width: 600px ) {
+    .feature .saveInfor {
+        padding-left: 45px !important;
+        margin-bottom: 10px !important;
+    }
+}
